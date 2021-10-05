@@ -1,0 +1,51 @@
+body {
+  background-color: #333;
+  color: #FFF;
+}
+
+.navbar {
+  border-bottom: 3px solid blue;
+  opacity: .8;
+}
+
+.Home-section {
+background-image: url(../img/home.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+min-height: 700px
+}
+
+.Home-section .Overlay {
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  min-height: 700px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.Home-section .Overlay .container {
+  padding-top: 150px;
+}
+
+.fas {
+  color: #008ed6;
+  padding: 5px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.card-form {
+  opacity: .8
+}
+
+.Explore-section .fas, .Share-section .fas {
+  background-color: #333;
+  color: #FFF;
+}
+
+.Create-section .fas {
+  background-color: #FFF;
+  color: #333;
+}
